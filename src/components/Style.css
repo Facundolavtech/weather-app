@@ -1,0 +1,72 @@
+.container{
+    width: 400px;
+    background-color: rgb(30, 116, 156);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 120px auto;
+}
+
+.input{
+    width: 85%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(129, 129, 129);
+    padding-bottom: 5px;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: none;
+    border-radius: 5px;
+}
+
+.select{
+    display: block;
+    margin-left: 20px;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+button{
+    width:90%;
+    outline: none;
+    display: block;
+    border: none;
+    background-color: rgb(228, 205, 2);
+    height: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+button:hover{
+    background-color: rgb(201, 181, 4);
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.temp, .temp__p, .temp__value{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.temp{
+    text-align: center;
+}
