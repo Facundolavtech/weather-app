@@ -17,11 +17,11 @@ export default function Result({result}) {
             </h2>
 
             <p className="temp__p">La temperatura minima es:
-            <span className="temp__value">{parseInt(main.temp_min - kelvinTemp)} °C</span>
+            <span className="temp__value"> {parseInt(main.temp_min - kelvinTemp)} °C</span>
             </p>
 
             <p className="temp__p">La temperatura maxima es: 
-            <span className="temp__value">{parseInt(main.temp_max - kelvinTemp)} °C</span>
+            <span className="temp__value"> {parseInt(main.temp_max - kelvinTemp)} °C</span>
             </p>
 
         </div>

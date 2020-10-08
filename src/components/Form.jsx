@@ -99,7 +99,7 @@ export default function Form() {
                 value={pais}
                 onChange={handleChange}
             >
-                <option value="">-- Selecciona un pais --</option>
+                <option value="">Selecciona un pais</option>
                 <option value="Afganistán" id="AF">Afganistán</option>
                 <option value="Albania" id="AL">Albania</option>
                 <option value="Alemania" id="DE">Alemania</option>

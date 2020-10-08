@@ -8,7 +8,7 @@ function App() {
 
   const Credit = styled.span`
       position: fixed;
-      bottom: 0;
+      top: 0;
       left: 0;
       height: 40px;
       padding: 10px;
@@ -22,6 +22,7 @@ function App() {
   const Link = styled.a`
       text-decoration:none;
       color: yellow;
+      margin-left: 10px;
   `
 
   return (

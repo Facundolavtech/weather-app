@@ -6,7 +6,7 @@ export function ErrorForm({ message }) {
 
 
     const Error = styled.div`
-        width: 100%;
+        width: 90%;
         height: 30px;
         padding: 10px 0;
         margin: auto;
@@ -33,7 +33,7 @@ export function ErrorForm({ message }) {
 export function ErrorResultNotFound({message}) {
 
     const Error = styled.div`
-        width: 100%;
+        width: 90%;
         height: 30px;
         padding: 10px 0;
         background-color: darkred;
