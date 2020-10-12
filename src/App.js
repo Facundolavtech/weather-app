@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
         <Form />
-        <Credit>Created by Facundo Lavagnino<Link href="http://www.github.com/Facundolavtech" target="no-target-blank"> GitHub</Link>
+        <Credit>Coded by Facundo Lavagnino<Link href="http://www.github.com/Facundolavtech" target="no-target-blank"> GitHub</Link>
         </Credit>
     </div>
   );
